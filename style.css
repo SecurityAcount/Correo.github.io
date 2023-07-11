@@ -64,17 +64,19 @@ body {
     border-bottom: 1px solid #ccc;
     background: transparent;
     border-radius: 0;
+    box-sizing: border-box;
 }
 
 .box .inputBox label {
     position: absolute;
-    top: 2.5rem;
+    top: 100%;
     left: 10px;
     padding: 0 5px;
     font-size: 1rem;
     color: #80868b;
     pointer-events: none;
     transition: 0.3s;
+    transform: translateY(-50%);
 }
 
 .box .inputBox input:focus ~ label,

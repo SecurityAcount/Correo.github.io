@@ -59,7 +59,7 @@ body {
     padding: 1rem 10px;
     font-size: 1rem;
     letter-spacing: 0.062rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.75rem; /* Aumentado el valor para aumentar el espacio */
     border: none;
     border-bottom: 1px solid #ccc;
     background: transparent;
@@ -68,7 +68,7 @@ body {
 
 .box .inputBox label {
     position: absolute;
-    top: 1.5rem;
+    top: 2.5rem; /* Ajustada la posición inicial para que esté más abajo */
     left: 10px;
     padding: 0 5px;
     font-size: 1rem;
